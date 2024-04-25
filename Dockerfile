@@ -1,4 +1,4 @@
-FROM node:20.11.1
+FROM node:20.12.2
 
 ENV NODE_PATH=/app/node_modules
 ENV PORT=80
