@@ -1,6 +1,5 @@
-FROM node:20.13.1
+FROM node:lts-alpine
 
-ENV NODE_PATH=/app/node_modules
 ENV PORT=80
 ENV HOSTNAME=0.0.0.0
 
